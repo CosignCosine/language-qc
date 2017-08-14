@@ -1,0 +1,46 @@
+'scopeName': 'source.qc'
+'name': 'Quake C'
+'fileTypes': ['qc', 'qci']
+
+'patterns': [
+  {
+    'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b',
+    'name': 'constant.numeric.qc'
+  },
+  {
+    'match': '(\\$)(\\w+)',
+    'captures':
+      '1':
+        'name': 'keyword.control.qc'
+      '2':
+        'name': 'entity.name.function.qc'
+    'name': 'meta.function.qc'
+  },
+  {
+    'begin': '//|#|;',
+    'end': '\\n',
+    'name': 'entity.comment.qc'
+  },
+  {
+    'begin': '/\\*',
+    'end': '\\*/',
+    'name': 'entity.comment.qc'
+  },
+  {
+    'begin': '\\"|\\\'',
+    'end': '\\"|\\\'',
+    'name': 'constant.string.qc'
+  },
+  {
+    'match': '\\\\\\w|\\\\\'|\\\\\"',
+    'name': 'constant.escape.qc'
+  },
+  {
+    'match': 'fps|blank|studio|prop_data|base|dynamic_interactions|particles|effect|name|\\w+_interactions',
+    'name': 'keyword.control.qc'
+  },
+  {
+    'match': '\\b\\w+\\b',
+    'name': 'variable.other.object.qc'
+  }
+]
