@@ -14,7 +14,7 @@ Atom is my (CosignCosine's) preferred code/text editor and I didn't want to get 
 
 # Installation Instructions
 ### Method 1: Cloning
-1. CD into `Macintosh HD/Users/<username>/.atom/packages` on Mac or `C: i forget lol sorry` on Windows.
+1. CD into `Macintosh HD/Users/<username>/.atom/packages` on Mac or `C:Users\<username>\.atom\packages` on Windows.
 2. Clone the repository. If you don't know how to do this, you probably shouldn't use this method.
 
 ### Method 2: Atom
