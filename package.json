@@ -8,10 +8,10 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "javascript:void(0)"
+    "url": "https://github.com/CosignCosine/QC-Syntax-for-Atom.git"
   },
   "bugs": {
-    "url": "javascript:void(0)"
+    "url": "https://github.com/CosignCosine/QC-Syntax-for-Atom/issues"
   },
   "license": "CC"
 }
