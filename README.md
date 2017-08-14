@@ -6,10 +6,8 @@ Atom is my (CosignCosine's) preferred code/text editor and I didn't want to get 
 
 # To-Do
 
-1. Verify if working on mac
 2. Update Source Developer Wiki to reflect the fact that this has been created.
 4. Profit??
-5. Add correct path for Windows cloning.
 6. Add installation via APM
 
 # Installation Instructions
