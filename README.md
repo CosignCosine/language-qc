@@ -1,5 +1,5 @@
 # language-qc
-This package gives QC language support in Atom.
+This package gives QC language support in Atom. (Source Format)
 
 # About
 Atom is my (CosignCosine's) preferred code/text editor and I didn't want to get another editor just for SFM ports, so I coded the language support. It's not that hard; I'm surprised it hasn't been done before.
